@@ -11,6 +11,7 @@ to AKS
     docker push mikkyacr1.azurecr.io/mikkywinsvc1:latest
     kubectl exec -it mikkywinsvc-798dc868f7-p8g7s -- cmd 
     ```
+    
 <img width="1047" alt="image" src="https://github.com/user-attachments/assets/6f4a1e18-5c1b-4b34-bed3-6524d1d7a586">
 
 <img width="823" alt="image" src="https://github.com/user-attachments/assets/4c1bbef1-7b1e-47d9-ae6e-ddca09661718">
