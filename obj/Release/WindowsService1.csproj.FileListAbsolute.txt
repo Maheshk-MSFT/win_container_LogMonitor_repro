@@ -1,0 +1,11 @@
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\bin\Release\WindowsService1.exe.config
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\bin\Release\WindowsService1.exe
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\bin\Release\WindowsService1.pdb
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\obj\Release\WindowsService1.csproj.AssemblyReference.cache
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\obj\Release\WindowsService1.csproj.CoreCompileInputs.cache
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\obj\Release\WindowsService1.exe
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\obj\Release\WindowsService1.pdb
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\obj\Release\WindowsService1.ProjectInstaller.resources
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\obj\Release\WindowsService1.csproj.GenerateResource.cache
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\bin\Release\LogMonitor.exe
+C:\Users\maheshk\source\repos\WindowsService1\WindowsService1\bin\Release\LogMonitorConfig.json
