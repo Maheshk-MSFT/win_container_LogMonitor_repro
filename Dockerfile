@@ -11,8 +11,6 @@ RUN mkdir C:\LogMonitor
 RUN copy C:\app\LogMonitor.exe C:\LogMonitor
 RUN copy C:\app\LogMonitorConfig.json C:\LogMonitor
 
-SHELL ["C:/LogMonitor/LogMonitor.exe", "cmd", "/S", "/C"]
-
 
 # Install the service
 RUN powershell -Command \
@@ -20,7 +18,8 @@ RUN powershell -Command \
         Start-Service -Name "Service1"
 
 
+# SHELL ["C:/LogMonitor/LogMonitor.exe", "cmd", "/S", "/C"]
 # Define the entry point for the container
- ENTRYPOINT ["powershell", "-Command", "Start-Service -Name Service1; Wait-Event -Timeout 2147483647"]
+ENTRYPOINT ["C:/LogMonitor/LogMonitor.exe", "powershell", "-Command", "Start-Service -Name Service1; Wait-Event -Timeout 2147483647"]
 
  # CMD ["cmd", "/c", "sc create Service1 binPath= \"C:\\app\\WindowsService1.exe\" DisplayName= \"Service1\" start= auto && sc start Service1 && timeout /t -1 /nobreak"]
