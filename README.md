@@ -33,4 +33,36 @@ useful commands - AKS
 <img width="1162" alt="image" src="https://github.com/user-attachments/assets/c4c3d41e-8d59-478c-8b2a-c67421ba5b59">
 <br>
 
+
+#### Yaml to deploy it to AKS 
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mikkywinsvc
+  labels:
+    app: mikkywinsvc
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: mikkywinsvc
+      labels:
+        app: mikkywinsvc
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": windows
+      containers:
+      - name: mikkywinsvc
+        image: mikkyacr1.azurecr.io/mikkywinsvc1:latest
+        resources:
+          limits:
+            cpu: 1
+            memory: 800M
+        ports:
+          - containerPort: 80
+  selector:
+    matchLabels:
+      app: mikkywinsvc
+```
 PS: Always use the latest LogMonitor downloaded from here -> https://github.com/microsoft/windows-container-tools/releases/
