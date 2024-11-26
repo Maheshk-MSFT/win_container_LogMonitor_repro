@@ -19,3 +19,6 @@ useful commands - AKS
 <img width="817" alt="image" src="https://github.com/user-attachments/assets/de1ae144-eb86-43e9-8be1-5cce856acf05">
 
 <img width="847" alt="image" src="https://github.com/user-attachments/assets/17baf09b-5e81-4336-aadc-0b56ed3e5127">
+
+<img width="1162" alt="image" src="https://github.com/user-attachments/assets/c4c3d41e-8d59-478c-8b2a-c67421ba5b59">
+
