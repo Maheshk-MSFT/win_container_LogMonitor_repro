@@ -6,16 +6,7 @@ More info here -> https://github.com/microsoft/windows-container-tools/tree/main
 ### ![image](https://github.com/user-attachments/assets/4a9f12eb-28c6-4340-816c-dec88741a10c)
 <br>
 
---------------------------------------------
-useful commands - AKS 
-```
-   docker build -t mikkywinsvc1 .
-    mikkyacr1.azurecr.io
-    az acr login --name mikkyacr1.azurecr.io
-    docker image tag mikkywinsvc1:latest mikkyacr1.azurecr.io/mikkywinsvc1:latest
-    docker push mikkyacr1.azurecr.io/mikkywinsvc1:latest
-    kubectl exec -it mikkywinsvc-798dc868f7-jfc5v -- cmd 
-```
+
 <br>
 
 <img width="743" alt="image" src="https://github.com/user-attachments/assets/266e8d39-4b7e-4725-9b99-3053ea1a41ad">
@@ -65,4 +56,16 @@ spec:
     matchLabels:
       app: mikkywinsvc
 ```
+
+--------------------------------------------
+useful commands - AKS 
+```
+   docker build -t mikkywinsvc1 .
+    mikkyacr1.azurecr.io
+    az acr login --name mikkyacr1.azurecr.io
+    docker image tag mikkywinsvc1:latest mikkyacr1.azurecr.io/mikkywinsvc1:latest
+    docker push mikkyacr1.azurecr.io/mikkywinsvc1:latest
+    kubectl exec -it mikkywinsvc-798dc868f7-jfc5v -- cmd 
+```
+
 PS: Always use the latest LogMonitor downloaded from here -> https://github.com/microsoft/windows-container-tools/releases/
