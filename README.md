@@ -5,14 +5,17 @@ for local docker:
 -----
 to AKS 
  ```
+   docker build -t mikkywinsvc1 .
     mikkyacr1.azurecr.io
     az acr login --name mikkyacr1.azurecr.io
     docker image tag mikkywinsvc1:latest mikkyacr1.azurecr.io/mikkywinsvc1:latest
     docker push mikkyacr1.azurecr.io/mikkywinsvc1:latest
-    kubectl exec -it mikkywinsvc-798dc868f7-p8g7s -- cmd  <--- this is to check the files are getting created but there is no console logs going elsewhere as expected
+    kubectl exec -it mikkywinsvc-798dc868f7-jfc5v -- cmd 
 ```
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/266e8d39-4b7e-4725-9b99-3053ea1a41ad">
     
-<img width="1047" alt="image" src="https://github.com/user-attachments/assets/6f4a1e18-5c1b-4b34-bed3-6524d1d7a586">
+<img width="722" alt="image" src="https://github.com/user-attachments/assets/d61d80bf-d8fb-4112-a02d-86b948daf52b">
 
-<img width="823" alt="image" src="https://github.com/user-attachments/assets/4c1bbef1-7b1e-47d9-ae6e-ddca09661718">
-<img width="814" alt="image" src="https://github.com/user-attachments/assets/4b70803f-bef0-4c49-931b-42324aec934b">
+<img width="817" alt="image" src="https://github.com/user-attachments/assets/de1ae144-eb86-43e9-8be1-5cce856acf05">
+
+<img width="847" alt="image" src="https://github.com/user-attachments/assets/17baf09b-5e81-4336-aadc-0b56ed3e5127">
