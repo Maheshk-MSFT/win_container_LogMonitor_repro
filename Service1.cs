@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -68,11 +68,11 @@ namespace WindowsService1
 
                 Console.WriteLine(content);
 
-                //_timer = new Timer();
-                //_timer.Interval = 10000;
-                //_timer.Elapsed += OnTimerElapsed;
-                //_timer.AutoReset = true;
-                //_timer.Enabled = true;
+                _timer = new Timer();
+                _timer.Interval = 10000;
+                _timer.Elapsed += OnTimerElapsed;
+                _timer.AutoReset = true;
+                _timer.Enabled = true;
 
             }
             catch (Exception ex)
