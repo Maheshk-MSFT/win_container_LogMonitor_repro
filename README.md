@@ -16,14 +16,21 @@ useful commands - AKS
     docker push mikkyacr1.azurecr.io/mikkywinsvc1:latest
     kubectl exec -it mikkywinsvc-798dc868f7-jfc5v -- cmd 
 ```
+<br>
+
 <img width="743" alt="image" src="https://github.com/user-attachments/assets/266e8d39-4b7e-4725-9b99-3053ea1a41ad">
-    
+    <br>
+
 <img width="722" alt="image" src="https://github.com/user-attachments/assets/d61d80bf-d8fb-4112-a02d-86b948daf52b">
+<br>
 
 <img width="817" alt="image" src="https://github.com/user-attachments/assets/de1ae144-eb86-43e9-8be1-5cce856acf05">
+<br>
 
 <img width="847" alt="image" src="https://github.com/user-attachments/assets/17baf09b-5e81-4336-aadc-0b56ed3e5127">
+<br>
 
 <img width="1162" alt="image" src="https://github.com/user-attachments/assets/c4c3d41e-8d59-478c-8b2a-c67421ba5b59">
+<br>
 
 PS: Always use the latest LogMonitor downloaded from here -> https://github.com/microsoft/windows-container-tools/releases/
