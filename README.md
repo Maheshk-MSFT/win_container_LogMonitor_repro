@@ -2,8 +2,9 @@
 
 ### What is LogMonitor: Log Monitor is a log tool for Windows Containers. It monitors configured log sources and pipes a formatted output to STDOUT.
 More info here -> https://github.com/microsoft/windows-container-tools/tree/main/LogMonitor
-![image](https://github.com/user-attachments/assets/4a9f12eb-28c6-4340-816c-dec88741a10c)
 
+### ![image](https://github.com/user-attachments/assets/4a9f12eb-28c6-4340-816c-dec88741a10c)
+<br>
 
 --------------------------------------------
 useful commands - AKS 
