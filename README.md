@@ -4,6 +4,7 @@
 More info here -> https://github.com/microsoft/windows-container-tools/tree/main/LogMonitor
 ![image](https://github.com/user-attachments/assets/4a9f12eb-28c6-4340-816c-dec88741a10c)
 
+
 --------------------------------------------
 useful commands - AKS 
 ```
@@ -24,3 +25,4 @@ useful commands - AKS
 
 <img width="1162" alt="image" src="https://github.com/user-attachments/assets/c4c3d41e-8d59-478c-8b2a-c67421ba5b59">
 
+PS: Always use the latest LogMonitor downloaded from here -> https://github.com/microsoft/windows-container-tools/releases/
