@@ -1,6 +1,6 @@
-# ﻿H1 How to monitor AKS WindowsContainer - windows service (eventlog,custom log files) redirected to K8s logs - Streamed out as a docker log so that we can monitor using Azure Monitor
+# ﻿How to monitor AKS WindowsContainer - windows service (eventlog,custom log files) redirected to K8s logs - Streamed out as a docker log so that we can monitor using Azure Monitor
 
-## H2 This is based on this repo - LogMonitor tools > https://github.com/microsoft/windows-container-tools/tree/main/LogMonitor
+## This is based on this repo - LogMonitor tools > https://github.com/microsoft/windows-container-tools/tree/main/LogMonitor
 ----
 > for local docker: 
 > docker build -t mikkywinsvc1 .
