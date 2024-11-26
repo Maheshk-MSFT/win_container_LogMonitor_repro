@@ -1,4 +1,6 @@
 ﻿# win_container_LogMonitor_repro
+
+ THIS IS BASED ON THIS REPO _ https://github.com/microsoft/windows-container-tools/tree/main/LogMonitor
 ----
 for local docker: 
 > docker build -t mikkywinsvc1 .
