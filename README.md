@@ -3,7 +3,7 @@
 for local docker: 
 > docker build -t mikkywinsvc1 .
 -----
-to AKS 
+useful commands - AKS 
  ```
    docker build -t mikkywinsvc1 .
     mikkyacr1.azurecr.io
